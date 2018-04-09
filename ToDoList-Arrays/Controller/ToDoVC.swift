@@ -25,7 +25,6 @@ class ToDoVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         cell.textLabel?.text = text
         return cell
     }
-    
 
     override func viewDidLoad() {
         super.viewDidLoad()
